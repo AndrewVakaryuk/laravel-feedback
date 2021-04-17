@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/user/{id}/{name}', function ($id, $name) {
+    return sprintf("ID: %s. Name: %s", $id, $name);
+});
