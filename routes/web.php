@@ -18,6 +18,10 @@ Route::get('/', [ MainController::class, 'home' ]);
 
 Route::get('/about', [ MainController::class, 'about' ]);
 
+Route::get('/review', [ MainController::class, 'review' ]);
+
+Route::post('/review/check', [ MainController::class, 'review_check' ]);
+
 //Route::get('/user/{id}/{name}', function ($id, $name) {
 //    return sprintf("ID: %s. Name: %s", $id, $name);
 //});
