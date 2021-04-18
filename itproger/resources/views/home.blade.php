@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title')Главная страница@endsection
+
 @section('main_content')
     <main role="main">
 
@@ -37,4 +39,5 @@
         </div> <!-- /container -->
 
     </main>
+
 @endsection
