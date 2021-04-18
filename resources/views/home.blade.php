@@ -1,5 +1,9 @@
 @extends('layout')
 
+@section('title')
+    Main Page
+@endsection
+
 @section('main_content')
     <main role="main">
 
